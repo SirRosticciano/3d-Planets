@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: la directory intermedia (Debug\) contiene file condivisi da un altro progetto (gravity3d.vcxproj). Tale condizione può comportare un comportamento di pulizia e ricompilazione non corretto.
+  Origine.cpp
+C:\Users\Andrea\Documents\GitHub\3d-Planets\gravity3d\Origine.cpp(210,22): warning C4018: '<': errata corrispondenza tra signed e unsigned
+C:\Users\Andrea\Documents\GitHub\3d-Planets\gravity3d\Origine.cpp(211,23): warning C4018: '<': errata corrispondenza tra signed e unsigned
+C:\Users\Andrea\Documents\GitHub\3d-Planets\gravity3d\Origine.cpp(225,20): warning C4101: 'final': variabile locale senza riferimenti
+C:\Users\Andrea\Documents\GitHub\3d-Planets\gravity3d\Origine.cpp(100): warning C4715: 'SphereIntersect': non tutti i percorsi di controllo restituiscono un valore
+  gravity3d.vcxproj -> C:\Users\Andrea\Documents\GitHub\3d-Planets\Debug\3d Planets.exe
