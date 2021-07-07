@@ -4,7 +4,14 @@ A simple software-raytraced gravity simulation.
 https://user-images.githubusercontent.com/35528856/124736828-af1bab00-df17-11eb-9cb5-014d08ca79d8.mp4
 
 # How to use it
-All the code is inside the "Origine.cpp" file inside 
+All the code is inside the "Origine.cpp" file inside the "gravity3d" folder (yes, it was an old name for the project).
+
+If the program runs slowly on your device you can change the resolution (W and H constants at the
+start of the program) in order to significantly increase the performance at the cost of a more pixelated
+look, or you can simply lower the number of spheres inside the for loop at line 162.
+
+At line 162 you can find the for loop where the planets are loaded inside a vector called "spheres";
+by modifying the for loop you can change the color, mas, position and number of spheres rendered
 
 # How it was made
 This project was made using the Allegro 5 library (for the graphics part) and the GLM library (for the vector related stuff).
