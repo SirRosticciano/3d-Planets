@@ -5,6 +5,8 @@ https://user-images.githubusercontent.com/35528856/124736828-af1bab00-df17-11eb-
 
 # How to use it
 All the code is inside the "Origine.cpp" file inside the "gravity3d" folder (yes, it was an old name for the project).
+In order to be compiled you need to include the Allegro 5 and the GLM libraries inside the project.
+(If you open the visual studio solution all the work will be already done by the nuGet packages).
 
 If the program runs slowly on your device you can change the resolution (W and H constants at the
 start of the program) in order to significantly increase the performance at the cost of a more pixelated
